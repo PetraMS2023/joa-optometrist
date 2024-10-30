@@ -1,0 +1,92 @@
+html,
+body {
+    direction: rtl;
+    font-family: system-ui;
+}
+
+.header .top .social span{
+    direction: ltr;
+}
+
+.main-title{
+    padding-bottom: 5px;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    transition: var(--main-transition);
+    width: 6%;
+    background-color: rgb(53 55 66 / 20%);
+    height: 100%;
+    right: 0;
+}
+
+.new .ne .date{
+    position: relative;
+    background-color: var(--main-color);
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    left: -235px;
+    top: -60px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ll{
+    transform: rotate(180deg);
+}
+
+.landing-about .container .text .path .aro-ti{
+    transform: rotate(180deg);
+}
+
+.landing-blog .container .text .path .aro-ti{
+    transform: rotate(180deg);
+}
+
+.landing-news .container .text .path .aro-ti{
+    transform: rotate(180deg);
+}
+
+.landing-contact .container .text .path .aro-ti{
+    transform: rotate(180deg);
+}
+
+.landing-certifications .container .text .path .aro-ti{
+    transform: rotate(180deg);
+}
+
+.title-page{
+    color: var(--main-color);
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-right: 4px solid var(--main-color);
+    padding: 0 5px;
+    border-left: 0;
+}
+
+.footer .container .top .left{
+    width: 400px;
+}
+
+.footer .container .top .right .n1 .title{
+    padding-bottom: 4px;
+}
+
+.footer .container .top .right .n1 ul li a{
+    direction: ltr;
+}
+
+.contact-page .container .top .con a{
+    direction: ltr;
+}
